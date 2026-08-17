@@ -2,7 +2,7 @@ using System;
 
 namespace API.Services;
 
-public class FileUpload
+public static class FileUpload
 {
     public static async Task<string> Upload(IFormFile file)
     {
