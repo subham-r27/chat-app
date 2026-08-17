@@ -1,0 +1,9 @@
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.AssemblyInfo.cs
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\subha\OneDrive\Desktop\chatapp\API\obj\Debug\net9.0\API.sourcelink.json
