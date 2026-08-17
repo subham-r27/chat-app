@@ -3631,11 +3631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\subha\\OneDrive\\Desktop\\chatapp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\subha\\OneDrive\\Desktop\\chatapp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\subha\\OneDrive\\Desktop\\chatapp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\subha\\OneDrive\\Desktop\\chatapp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\subha\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\subha\\OneDrive\\Desktop\\chatapp\\API\\obj\\",
+      "outputPath": "C:\\Users\\subha\\OneDrive\\Desktop\\chatapp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\subha\\AppData\\Roaming\\NuGet\\NuGet.Config",
