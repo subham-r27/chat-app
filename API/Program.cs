@@ -79,8 +79,15 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+// Ensure database is created (creates Identity tables like AspNetUsers) in development
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<API.Data.AppDbContext>();
+    db.Database.EnsureCreated();
+}
+
 app.UseCors(x => x.AllowAnyHeader()
-.AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:4200", "https://localhost:4200"));
+            .AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:4200", "https://localhost:4200"));
 
 //app.UseHttpsRedirection();
 app.UseAuthentication();

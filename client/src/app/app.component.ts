@@ -27,18 +27,19 @@ export class AppComponent implements OnInit {
 
   startOfferReceive(){
     this.signalRService.offerReceived.subscribe(async(data)=>{
-      if(data){
-        let audio = new Audio('assets/phone-ring.mp3');
-        audio.play();
-        this.dialog.open(VideoChatComponent,{
-          width:"400px",
-          height:"600px",
-          disableClose:false,
+      if(!data) return;
+      if(this.signalRService.incomingCall || this.dialog.openDialogs.length > 0) return;
 
-        });
-        this.signalRService.remoteUserId = data.senderId;
-        this.signalRService.incomingCall = true;
-      }
+      let audio = new Audio('assets/phone-ring.mp3');
+      audio.play();
+      this.dialog.open(VideoChatComponent,{
+        width:"400px",
+        height:"600px",
+        disableClose:false,
+
+      });
+      this.signalRService.remoteUserId = data.senderId;
+      this.signalRService.incomingCall = true;
     })
   }
 }
