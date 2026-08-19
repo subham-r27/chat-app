@@ -1,10 +1,12 @@
-<app-chat-sidebar class="bg-white border-r md:hidden" />
-<div class="flex rounded-3xl h-full justify-between">
-    <app-chat-sidebar class="bg-white border-r hidden md:block w-1/2" />
-    <div class="w-full">
+<div class="chat-shell">
+<app-chat-sidebar class="chat-sidebar-mobile md:hidden" />
+<div class="chat-layout">
+    <app-chat-sidebar class="chat-sidebar-desktop hidden md:block" />
+    <div class="chat-main">
         <app-chat-window />
     </div>
-    <div class="bg-gray-50 border-l hidden md:block md:w-1/2">
+    <div class="chat-details hidden md:block">
         <app-chat-right-sidebar />
     </div>
+</div>
 </div>

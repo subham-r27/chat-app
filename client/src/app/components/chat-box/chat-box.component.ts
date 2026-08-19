@@ -20,11 +20,10 @@ import {
         .chat-box {
           scroll-behavior: smooth;
           overflow: hidden;
-          padding: 10px;
-          background-color: #f5f5f5;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          height: 70vh;
-          border-radius: 5px;
+          padding: 18px 20px;
+          background-color: #fbfcfb;
+          height: 100%;
+          min-height: 460px;
           overflow-y: scroll;
         }
   
@@ -43,12 +42,12 @@ import {
         }
   
         .chat-box:hover::-webkit-scrollbar-thumb {
-          background: gray;
+          background: #b6ccc8;
           border-radius: 10px;
         }
   
         .chat-box::-webkit-scrollbar-thumb:hover {
-          background: #555;
+          background: #0d766e;
         }
   
         .chat-icon {
